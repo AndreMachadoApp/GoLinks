@@ -95,13 +95,14 @@ header {
   margin: 5px;  
 }
 
-.main-nav a .paginainicial:hover {
+.paginainicialnav:hover {
   color: #00BCFF;
 }
 
-.main-nav a .paginainicial:hover {
+.contatonav:hover {
   color: #89D329;
 }
+
 
 .homeicon {
   width: 38px; /* Defina o tamanho desejado para o ícone */
