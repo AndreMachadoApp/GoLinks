@@ -95,8 +95,12 @@ header {
   margin: 5px;  
 }
 
-.main-nav a:hover {
+.main-nav a .paginainicial:hover {
   color: #00BCFF;
+}
+
+.main-nav a .paginainicial:hover {
+  color: #89D329;
 }
 
 .homeicon {
