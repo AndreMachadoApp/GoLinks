@@ -59,11 +59,9 @@ header {
 #logo img {
   margin: 0 auto; 
   text-transform: uppercase;
-  max-width: 100%;
-  width: 160px;
-  height: 68px;
+  width: 200px; /* Define largura do logo GoLinks */
+  height: 60px; /* Define tamanho do logo GoLinks */
 }
-
 
 .main-nav {
   display: flex;
@@ -96,17 +94,17 @@ header {
 }
 
 .paginainicialnav:hover {
-  color: #00BCFF;
+  color: #00BCFF; /* Define a cor ao passar o mouse por pagina inicial */
 }
 
 .contatonav:hover {
-  color: #89D329;
+  color: #89D329; /* Define a cor ao passar o mouse por contato */
 }
 
 
 .homeicon {
   width: 38px; /* Defina o tamanho desejado para o ícone */
-
+  padding-right: 20px /* Define a distancia do incone para a direita da tela */
 }
 
 /* MAIN CONTIANER */
