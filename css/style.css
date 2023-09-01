@@ -60,7 +60,7 @@ header {
   margin: 0 auto; 
   text-transform: uppercase;
   width: 200px; /* Define largura do logo GoLinks */
-  height: 60px; /* Define tamanho do logo GoLinks */
+  height: 120px; /* Define tamanho do logo GoLinks */
 }
 
 .main-nav {
