@@ -2,7 +2,7 @@
 :root {
   --primary: #10394F;
   --light: #F3F3F3;
-  --dark: 	#686868;
+  --lightplus: 	#FEFEFE;
 }
 
 html, body {
@@ -168,12 +168,12 @@ header {
 }
 
 .sub-links a {
-  color: var(--dark);
+  color: var(--lightplus);
   text-decoration: none;
 }
 
 .sub-links a:hover {
-  color: var(--dark);
+  color: var(--lightplus);
   text-decoration: underline;
 }
 
@@ -184,7 +184,7 @@ header {
 footer {
   padding: 0;
   text-align: center;
-  color: var(--dark);
+  color: var(--lightplus);
   margin: 10px;
   clear: both; 
 }

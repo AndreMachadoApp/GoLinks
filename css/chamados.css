@@ -37,7 +37,7 @@
 .footer-chamados {
   padding-top: 700px;
   text-align: center;
-  color: var(--dark);
+  color: var(--lightplus);
   margin: 10px;
   clear: both; /* Limpa o float anterior */
 }
