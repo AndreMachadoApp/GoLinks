@@ -6,7 +6,7 @@
 }
 
 .containerChamado {
-  background-color: #141414;
+
   padding: 0px;
   border-radius: 5px;
   text-align: left;
@@ -49,7 +49,7 @@
 @media(max-width: 800px) {
 
   .containerChamado {
-    background-color: #141414;
+
     padding-top: 2px;
     border-radius: 5px;
     text-align: center;
@@ -67,7 +67,7 @@
 
 @media(max-width: 650px) {
   .containerChamado {
-    background-color: #141414;
+
     padding-top: 2px;
     border-radius: 5px;
     text-align: center;
