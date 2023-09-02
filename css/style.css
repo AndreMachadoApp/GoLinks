@@ -84,7 +84,7 @@ header {
   display: flex; /* Use flexbox para alinhar os itens horizontalmente */
   align-items: center; /* Alinhe os itens verticalmente */
   padding-top: 18px;
-  gap: 40px;
+  gap: 24px;
 }
 
 .main-nav a {
