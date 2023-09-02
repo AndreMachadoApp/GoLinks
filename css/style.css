@@ -116,12 +116,6 @@ header {
 
 
 
-.container {
-  display: grid;
-  grid-gap: 10px;
-  grid-template-columns: repeat(6, minmax(100px, 1fr));
-  
-}
 
 .container a {
   transition: transform .3s;  
@@ -367,7 +361,7 @@ a {
 
 .container {
   display: grid;
-  grid-gap: 10px;
+  grid-gap: 20px;
   grid-template-columns: repeat(6, minmax(100px, 1fr));
   position: relative;
 }
