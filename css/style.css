@@ -42,7 +42,7 @@ img {
 header {
   padding-top: 20px;
   padding-left: 45px;
-  padding-bottom: 20px;
+  padding-bottom: 5px;
   position: fixed;
   top: 0;
   display: flex;
@@ -261,7 +261,20 @@ footer {
 }
 }
 
-
+@media (max-width: 700px) {		
+	.header-content {		
+	  flex-direction: column; /* Altera para layout de coluna */		
+	  align-items: flex-start; /* Alinha os elementos à esquerda */		
+	  gap: 10px; /* Adicione espaço entre os elementos */		
+	}		
+			
+	.data-hora {		
+	margin: 0 auto;		
+	}		
+	.homeicon {		
+	  margin: 0 auto;		
+	}		
+	}
 
 @media(max-width: 500px) {
 
