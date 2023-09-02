@@ -20,6 +20,7 @@
 .cont2 {
   margin: 0 auto;
   max-width: 120rem;
+  padding-top: 100px ;
 }
 
 .profile-list {
@@ -136,6 +137,11 @@
   }
   .profile-list {
     padding: 90px;
+  }
+  .cont2 {
+    margin: 0 auto;
+    max-width: 120rem;
+    padding-top: 1px ;
   }
 }
 
