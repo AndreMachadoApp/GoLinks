@@ -83,6 +83,8 @@ header {
   margin-right: auto;
   display: flex; /* Use flexbox para alinhar os itens horizontalmente */
   align-items: center; /* Alinhe os itens verticalmente */
+  padding-top: 18px;
+  gap: 40px;
 }
 
 .main-nav a {
@@ -255,6 +257,7 @@ margin: 2px;
     display: flex;
     flex-wrap: wrap;
     gap: 2px; /* Adicione um espaçamento entre os itens, se necessário */
+    padding-top: 1px;
   }
 
   .homeicon {
