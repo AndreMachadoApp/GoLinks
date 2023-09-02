@@ -6,7 +6,7 @@
 }
 
 .containerChamado {
-
+  background-color: var(--primaria);
   padding: 0px;
   border-radius: 5px;
   text-align: left;
@@ -17,6 +17,12 @@
   margin-bottom: 10px;
   color: #fff;
   padding-bottom: 20px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* Outras propriedades flexbox, se necessário */
 }
 
 .abrir-chamado {
@@ -31,13 +37,13 @@
 }
 
 .abrir-chamado:hover {
-  background-color: #0C2E41;
+  background-color: #141414;
 }
 
 .footer-chamados {
   padding-top: 700px;
   text-align: center;
-  color: var(--dark);
+  color: var(--clara2);
   margin: 10px;
   clear: both; /* Limpa o float anterior */
 }
@@ -49,7 +55,7 @@
 @media(max-width: 800px) {
 
   .containerChamado {
-    background-color: #141414;
+    background-color: var(--primaria);
     padding-top: 2px;
     border-radius: 5px;
     text-align: center;
@@ -67,7 +73,7 @@
 
 @media(max-width: 650px) {
   .containerChamado {
-    background-color: #141414;
+    background-color: var(--primaria);
     padding-top: 2px;
     border-radius: 5px;
     text-align: center;
@@ -78,5 +84,4 @@
   .footer-chamados {
     padding-top: 4px;}
 }
-
 
