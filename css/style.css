@@ -57,10 +57,8 @@ header {
 
 
 #logo img {
-  margin: 0 auto; 
-  text-transform: uppercase;
-  width: 200px; /* Define largura do logo GoLinks */
-  height: 60px; /* Define tamanho do logo GoLinks */
+  width: 200px; /* Define a largura do GoLinks */
+  height: auto; /* Para manter a proporção da imagem */
 }
 
 .main-nav {
@@ -109,11 +107,10 @@ header {
 
 /* MAIN CONTIANER */
 .main-container {
-  padding-top: 50px;
+  padding-top: 60px;
   padding-left: 40px;
   padding-right: 55px ;
 }
-
 
 
 
